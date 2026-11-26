@@ -556,9 +556,6 @@ std::unique_ptr<TranslationMap> InitializeTranslations(QObject* parent) {
               "it bypasses such prompts and directly exits the emulation."));
     INSERT(UISettings, hide_mouse, tr("Hide mouse on inactivity"),
            tr("Hides the mouse after 2.5s of inactivity."));
-    INSERT(UISettings, keep_window_size_on_boot, tr("Keep window size when starting a game"),
-           tr("Leaves the window at its current size when a game starts instead of resizing it "
-              "to 1080p (docked) or 720p (handheld)."));
     INSERT(UISettings, check_for_updates, tr("Check for updates"),
            tr("Whether or not to check for updates upon startup."));
 

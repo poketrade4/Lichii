@@ -136,14 +136,6 @@ struct Values {
                                       true,
                                       true};
 
-    Setting<bool> keep_window_size_on_boot{linkage,
-                                           false,
-                                           "keepWindowSizeOnBoot",
-                                           Category::UiGeneral,
-                                           Settings::Specialization::Default,
-                                           true,
-                                           true};
-
     Setting<bool> check_for_updates{linkage, true, "check_for_updates", Category::UiGeneral};
     // Release tag the user chose to skip, and the epoch second before which updates stay quiet.
     Setting<std::string> skipped_update_tag{linkage, {}, "skipped_update_tag", Category::Ui};
